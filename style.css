@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    /* background: transparent; */
+}
+
+.nav>.logo>h2>span{
+    color: aqua;
+}
+
+.nav>.items{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav>.items>p:hover{
+     color:rgb(91, 91, 254);
+     /* text-decoration: underline; */
+     cursor: pointer;
+}
+.nav>.btn>button{
+    padding: 5px 10px;
+    /* border: 1px solid aqua; */
+    background: transparent ;
+    color: white;
+    border-radius: 8px;
+}
+.nav>.btn>button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img3.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    /* justify-content: center; */
+    /* opacity: 0.7; */
+}
+.page1>p{
+    margin-top: 100px;
+    font-size: 20px;
+}
+.page1>h1{
+    /* margin-top: 20px; */
+    font-size: 45px;
+}
+.page1>h4{
+    font-size: 25px;
+}
+.page1>button{
+    padding: 10px 25px;
+    /* margin-top: 50px; */
+    background-color:white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+div.background {
+    /* background: url(img3.avi) repeat; */
+    border: 2px solid black;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
